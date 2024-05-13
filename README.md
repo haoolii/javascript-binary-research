@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Javascript Binary (File, Blob, FileReader, ArrayBuffer, Base64)
 
-## Getting Started
+1. Blob
+2. File
+3. FileReader
+4. ArrayBuffer
+5. Object URL
+6. Base64
+    * atob
 
-First, run the development server:
+## NodeJS
+1. Buffer
+    * Compare with Javascript Buffer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Common Usage
+1. PDF Preview
+    * 於HTML預覽PDF
+    * 瀏覽器差異導致顯示與否
+    * 瀏覽器預設解析行為
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Image Preview
+    * 於HTML預覽圖片
+    * 瀏覽器差異導致顯示與否
+    * 瀏覽器預設解析行為
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Video
+    * 影片解析切片轉換等行為
 
-## Learn More
+4. Browser Support
+    * 瀏覽器差異
 
-To learn more about Next.js, take a look at the following resources:
+5. Slice Upload
+    * 各類型切片上傳實作
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Related Docs
+1. 谈谈JS二进制：File、Blob、FileReader、ArrayBuffer、Base64 https://zhuanlan.zhihu.com/p/568915443
+2. ArrayBuffer https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+3. NodeJS Documents https://nodejs.org/docs/latest/api/
